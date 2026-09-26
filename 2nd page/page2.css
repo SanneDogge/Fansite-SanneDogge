@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+
+ background-image: url("Image2/prikbord.jpg");
+ background-color: #cccccc;
+}
+
+.portrait{
+  width: 300px;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+}
+
+h3{
+ text-align: bottom;
+}
+
+ h4{
+ text-align: left;
+ margin-block-start: 5px;
+}
+.container {
+  display:flex;
+  gap:10px;
+}
+
+.containter img{
+  width: 60%;
+  height:200px;
+}
+
+.container div {
+margin: 10px;
+padding: 20px;
+font: size 15px;
+}
+
+.main {
+  width:20%;
+  display: flex;
+  height:auto;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  display:flex;
+  flex-direction: column;
+  background-color: beige;
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+}
+.text {
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+#myImage{
+  width: 60%;
+  height:200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+.link1 {
+  position: left;
+  bottom: 5px;
+  left: 40%;
+
+  background-color: darkred;
+  color: red;
+  font-size: 20px;
+}
+
